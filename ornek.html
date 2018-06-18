@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+    <link rel="stylesheet" href="style/ornek.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrap">
+        <div id="app">
+        
+            <input type="number"  id="number1" placeholder="Number_1">
+            <input type="number"  id="number2" placeholder="Number_2">        
+             
+        
+            <div class="right">
+                <ul>
+                    <li>
+                        <button @click="add">Addition(+)</button>
+                    </li>
+                    <li>
+                        <button @click="sub">Subtraction(-)</button>
+                    </li>
+                    <li>
+                        <button @click="div">Division(/)</button>
+                    </li>
+                    <li>
+                        <button @click="mul">Multiplication(*)</button>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <div class="result">
+                Result -->    {{result}}
+            </div>
+        </div>
+
+       
+    
+    </div>
+
+    <div class="bottom">
+            SIMPLE CALCULATOR
+    </div>
+
+    <script src="./js/vue.js"></script>
+    <script src="./js/ornek.vue"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background: rgb(165, 21, 100);
+}
+
+.wrap{
+    
+    background: rgb(226, 122, 179);
+    padding: 10em;
+    text-align: center;
+}
+
+input{
+    margin-right: 1em;
+    font-size: 2em;
+}
+
+button{
+    width: 8.5em;
+    height: 3em;
+    font-weight: bold;
+}
+
+.right{
+    float:right;
+    margin-top: 3em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.right ul li{
+    margin-bottom: 1em;
+}
+
+.result{
+    margin-top: 2em;
+    font-weight: bold;
+    font-size: 3.7em;
+    color: rgb(165, 21, 100);
+}
+
+.bottom{
+    font-family:  FreeMono;
+    padding-top: 1.5em;
+    text-align: center;
+    font-size: 5em;
+    text-decoration: underline overline ;
+}
